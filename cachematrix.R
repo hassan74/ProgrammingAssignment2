@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This code to create matix and inverse the matrix one time .
 
-## Write a short comment describing this function
+## this function create cache matrix contating function to set inverse matrix to it and to get it
 
 makeCacheMatrix <- function(x = matrix()) {
   IM<- NULL
@@ -16,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function check if inverse matrix is not null then get cached  inverse matrix but if it is null inverse it using solve fun
 
 cacheSolve <- function(x, ...) {
   im <- x$getIM()
